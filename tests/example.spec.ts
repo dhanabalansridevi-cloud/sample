@@ -12,6 +12,7 @@ test('has title', async ({ page }) => {
   await page.waitForTimeout(8000);
   await page.waitForURL('https://www.saucedemo.com/inventory.html');
   console.log('URL is correct');
+  
 });
 
 
